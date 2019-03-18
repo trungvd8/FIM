@@ -1,0 +1,72 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+	<TypeScriptCompileBlocked>true</TypeScriptCompileBlocked>
+    <ApplicationIcon />
+    <OutputType>WinExe</OutputType>
+    <StartupObject />
+    <TypeScriptToolsVersion>3.1</TypeScriptToolsVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Controllers\CategoryController.cs" />
+    <Compile Include="Controllers\OrganizationController.cs" />
+    <Compile Include="Controllers\PRDetailController.cs" />
+    <Compile Include="Controllers\PurchaseRequestController.cs" />
+    <Compile Include="Controllers\RequestForQuotationController.cs" />
+    <Compile Include="Controllers\RFQDetailController.cs" />
+    <Compile Include="Controllers\RFQMailCCController.cs" />
+    <Compile Include="Controllers\VendorController.cs" />
+    <Compile Include="Migrations\20190314070819_InitialCreate.cs" />
+    <Compile Include="Migrations\20190314070819_InitialCreate.Designer.cs" />
+    <Compile Include="Migrations\RFQDBContextModelSnapshot.cs" />
+    <Compile Include="Models\Dto\ADGroup.cs" />
+    <Compile Include="Models\Dto\BudgetGeography.cs" />
+    <Compile Include="Models\Dto\Category.cs" />
+    <Compile Include="Models\Dto\CategoryOrganization.cs" />
+    <Compile Include="Models\Dto\Expert.cs" />
+    <Compile Include="Models\Dto\File.cs" />
+    <Compile Include="Models\Dto\MasterContract.cs" />
+    <Compile Include="Models\Dto\Organization.cs" />
+    <Compile Include="Models\Dto\OrganizationUnit.cs" />
+    <Compile Include="Models\Dto\ParentCategory.cs" />
+    <Compile Include="Models\Dto\PRDetail.cs" />
+    <Compile Include="Models\Dto\PurchaseRequest.cs" />
+    <Compile Include="Models\Dto\Quotation.cs" />
+    <Compile Include="Models\Dto\QuotationByVendor.cs" />
+    <Compile Include="Models\Dto\RequestForQuotation.cs" />
+    <Compile Include="Models\Dto\RFQDetail.cs" />
+    <Compile Include="Models\Dto\RFQMailCC.cs" />
+    <Compile Include="Models\Dto\RFQWorkflow.cs" />
+    <Compile Include="Models\Dto\Role.cs" />
+    <Compile Include="Models\Dto\User.cs" />
+    <Compile Include="Models\Dto\Vendor.cs" />
+    <Compile Include="Models\RFQDBContext.cs" />
+    <Compile Include="Modules\CommonController.cs" />
+    <Compile Include="Modules\Repository\RFQRepository.cs" />
+    <Compile Include="Modules\RFQController.cs" />
+    <Compile Include="Modules\Service\CommonService.cs" />
+    <Compile Include="Modules\Service\IScopedService.cs" />
+    <Compile Include="Modules\Service\RFQService.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Startup.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Entities\" />
+    <Folder Include="wwwroot\" />
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Properties\PublishProfiles\FolderProfile.pubxml.user" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.1" />
+  </ItemGroup>
+
+</Project>

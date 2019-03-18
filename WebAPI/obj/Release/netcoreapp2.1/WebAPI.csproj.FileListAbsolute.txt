@@ -1,0 +1,14 @@
+E:\Desktop\FIM HN\Project\WebAPI\WebAPI\bin\Release\netcoreapp2.1\WebAPI.deps.json
+E:\Desktop\FIM HN\Project\WebAPI\WebAPI\bin\Release\netcoreapp2.1\WebAPI.runtimeconfig.json
+E:\Desktop\FIM HN\Project\WebAPI\WebAPI\bin\Release\netcoreapp2.1\WebAPI.runtimeconfig.dev.json
+E:\Desktop\FIM HN\Project\WebAPI\WebAPI\bin\Release\netcoreapp2.1\WebAPI.dll
+E:\Desktop\FIM HN\Project\WebAPI\WebAPI\bin\Release\netcoreapp2.1\WebAPI.pdb
+E:\Desktop\FIM HN\Project\WebAPI\WebAPI\obj\Release\netcoreapp2.1\WebAPI.csprojAssemblyReference.cache
+E:\Desktop\FIM HN\Project\WebAPI\WebAPI\obj\Release\netcoreapp2.1\WebAPI.csproj.CoreCompileInputs.cache
+E:\Desktop\FIM HN\Project\WebAPI\WebAPI\obj\Release\netcoreapp2.1\WebAPI.RazorAssemblyInfo.cache
+E:\Desktop\FIM HN\Project\WebAPI\WebAPI\obj\Release\netcoreapp2.1\WebAPI.RazorAssemblyInfo.cs
+E:\Desktop\FIM HN\Project\WebAPI\WebAPI\obj\Release\netcoreapp2.1\WebAPI.AssemblyInfoInputs.cache
+E:\Desktop\FIM HN\Project\WebAPI\WebAPI\obj\Release\netcoreapp2.1\WebAPI.AssemblyInfo.cs
+E:\Desktop\FIM HN\Project\WebAPI\WebAPI\obj\Release\netcoreapp2.1\WebAPI.RazorTargetAssemblyInfo.cache
+E:\Desktop\FIM HN\Project\WebAPI\WebAPI\obj\Release\netcoreapp2.1\WebAPI.dll
+E:\Desktop\FIM HN\Project\WebAPI\WebAPI\obj\Release\netcoreapp2.1\WebAPI.pdb
